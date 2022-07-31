@@ -3,8 +3,11 @@ const ctx = canvas.getContext('2d');
 
 var element = document.getElementById("header");
 setTimeout(function() {
+  
   element.style.opacity = "1";
 }, 1200);
+
+
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -102,3 +105,15 @@ window.addEventListener('resize', function(){
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 });
+
+function githubOpen() {
+  window.open('https://github.com/Flame221');
+}
+
+function resumeOpen() {
+  window.open('https://github.com/Flame221');
+}
+
+function githubProjectOpen() {
+  window.open('https://github.com/Flame221');
+}
